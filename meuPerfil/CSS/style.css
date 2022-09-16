@@ -1,0 +1,180 @@
+/*GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 20px;
+    font-family: monospace;
+    background: url('../assets/fundo.png');
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+}
+a:hover{
+    background-color: #ffbd59;
+    border-radius: 15px;
+    padding: 4px;
+}
+/*Header*/
+#header{
+    background: #ffbd59 url('../assets/Menu.png');
+    text-align: center;
+    padding: 15px;
+    height: 150px;
+}
+
+#logo, #menu{
+    padding: 18px;
+}
+
+#logo h1{
+    font-size: 2.5em;
+    color: rgb(250, 250, 250);
+    line-height: .1em;
+}
+
+.azul{
+    color: blue;
+}
+
+/*Menu*/
+
+body.home #menu a#home,
+body.conteudo #menu a#conteudos,
+body.contato #menu a#contato{
+    background-color: white;
+    color: #ffbd59;
+}
+
+#menu{
+    background-color: orange;
+    padding: 0px 0px;
+    width: 239px;
+    margin: auto;
+}
+
+#menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(250, 250, 250);
+    padding: 5px 5px;
+    font-weight: bold;
+    display:block;
+    float: left;
+}
+
+#menu a:hover{
+    color: blue;
+    border-radius: 0;
+    background-color: white;
+}
+.clear{
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+/*Body*/
+#principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px 0px 0;
+    background: white;
+}
+/*pagina conteudo*/
+.conteudoPrincipal{
+    padding: 10px;
+}
+.conteudoPrincipal h2{
+    color: blue;
+    font-size: 1.5em;
+    background-color: #ffbd59;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.conteudoPrincipal p{
+    text-indent: 5px;
+    padding: 5px;
+    font-size: .8em;
+}
+.conteudoPrincipal .container a{
+    margin-bottom: 25px;
+}
+/*Esquerda*/
+#conteudo{
+    background:white;
+    width: 410px;
+    float: left;
+    padding: 10px;
+}
+
+#conteudo h2{
+    font-size: 1.3em;
+    color: blue;
+}
+
+.perfil img{
+    width: 50%;
+    border-radius: 15%;
+}
+.skills{
+    margin: 10px 0px;
+}
+
+#conteudo h3{
+    margin-bottom: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+/*direita*/
+
+#lateral{
+    background-color: white;
+    width: 480px;
+    float: right;
+    margin-bottom: 10%;
+    padding-right: 10px;
+}
+
+#lateral h3{
+    background: darkgray;
+    color: blue;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+#lateral p{
+    padding: 5px;
+    text-indent: 5px;
+}
+.redesSociais h3{
+    background: gray;
+    color: blue;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 15px;
+}
+.redesSociais ul a{
+    color: black;
+    font-size: .8em;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*Footer*/
+#footer{
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+    clear: both;
+}
